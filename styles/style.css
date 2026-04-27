@@ -144,7 +144,10 @@
 }
 .products-container{
     width: 1140px;
+    /* display: flex;
+    flex-direction: column; */
     margin: 0 auto;
+    align-items: center;
 }
 .card-1{
     width: 329px;
@@ -330,6 +333,7 @@
 /* Products container */
 .products-container{
     width: 450px;
+    margin: 0 auto;
     justify-items: center;
     margin-bottom: 20px;
 }
@@ -354,6 +358,9 @@
     justify-content: center;
     align-items: center;
     width: auto;
+    margin: 0 auto;
+}
+.featured-image-container{
     margin: 0 auto;
 }
 .featured-image-container img{
